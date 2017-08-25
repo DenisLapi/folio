@@ -11,6 +11,7 @@ header {
     margin-top: 150px;
     .burger-menu {
       right: 10%;
+      top: 151px;
       z-index: 9999;
       position: fixed;
     }
@@ -83,6 +84,16 @@ header {
         img {
           width: 40%;
         }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 559px) {
+  header {
+    .container {
+      .burger-menu {
+        top: 60px;
       }
     }
   }
@@ -334,7 +345,6 @@ footer {
 
 // ============================= Burger button =============================== //
 .burger-menu {
-  position: relative;
   margin: 0 auto;
   color: #60635E;
   text-transform: uppercase;
