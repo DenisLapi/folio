@@ -3,8 +3,78 @@
   <head>
     <meta charset="utf-8">
     <title>Folio</title>
+    <link rel="stylesheet" href="./stylesheets/grid12.css">
+    <link rel="stylesheet" href="./stylesheets/style.css">
   </head>
   <body>
 
+  <header>
+    <div class="container">
+      <img class="logo" src="./images/logo.png" alt="Folio logo" />
+      <div class="burger-menu">
+        <div class="burger-click-region">
+          <span class="burger-menu-piece"></span>
+          <span class="burger-menu-piece"></span>
+          <span class="burger-menu-piece"></span>
+        </div>
+      </div>
+      <h1>Hello,</h1>
+      <p>Donec commodo leo est, quis eleifend urna pellentesque eget. Proin scelerisque odio eu nisi<br>viverra, nec ullamcorper augue sagittis. Proin faucibus lorem nisl.</p>
+    </div>
+  </header>
+
+  <section id="my-work-posts">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 col-sm-6 column-post light-blue">
+          <img src="./images/post-1.png" alt="" />
+        </div>
+        <div class="col-md-6 col-sm-6 column-post light-pink">
+          <img src="./images/post-2.png" alt="" />
+        </div>
+        <div class="col-md-6 col-sm-6 column-post light-grey">
+          <img src="./images/post-3.png" alt="" />
+        </div>
+        <div class="col-md-6 col-sm-6 column-post light-purple">
+          <img src="./images/post-4.png" alt="" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <h2>Loading</h2>
+      <img class="phone-and-rope" src="./images/phone-and-rope.png" alt="Phone and rope">
+      <h3>1.800.123.456</h3>
+      <p>Donec commodo leo est, quis eleifend urna pellentesque eget. Proin scelerisque odio eu nisi viverra,<br class="break-row">
+         nec ullamcorper augue sagittis. Proin faucibus lor or <a href="mailto:denislapidenis@gmail.com">contact me</a>
+      </p>
+
+      <ul class="social-media">
+        <li><a href="https://www.linkedin.com/in/denis-lapadatovic-76a933b0/">LinkedIn</a></li>
+        <li class="left-right-borders">
+          <a href="https://github.com/DenisLapi/">Github</a>
+        </li>
+        <li><a href="mailto:denislapidenis@gmail.com">Email</a></li>
+      </ul>
+      <div class="vertical-line"></div>
+    </div>
+  </footer>
+
+  <div id="profile-details" class="container-fluid">
+    <div class="container">
+      <div class="profile-image-box">
+        <div class="profile-image-frame profile-animation-fly-in"></div>
+        <a class="download-link profile-animation-fly-in" href="#">Download<br> resume</a>
+      </div>
+      <div class="content-center">
+        <h1 class="profile-animation-fly-in">Hello, I'm <span>Denis <strong>Lapi</strong></span></h1>
+        <p class="profile-animation-fly-in">20 years old Front-end developer from Serbia living in Romania</p>
+      </div>
+  </div>
+
+  <script type="text/javascript" src="./javascript/zepto.min.js"></script>
+  <script type="text/javascript" src="./javascript/burger-button.js"></script>
   </body>
 </html>
